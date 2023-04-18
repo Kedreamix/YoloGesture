@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>1097.jpg</filename>
+	<path>C:\Users\admin\Desktop\handpose_x_gesture_v3\JPEGImages\1097.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>181</width>
+		<height>292</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>up</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>30</xmin>
+			<ymin>37</ymin>
+			<xmax>135</xmax>
+			<ymax>246</ymax>
+		</bndbox>
+	</object>
+</annotation>

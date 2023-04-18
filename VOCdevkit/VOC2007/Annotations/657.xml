@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>657.jpg</filename>
+	<path>E:\handpose_x_gesture_v2\JPEGImages\657.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>61</width>
+		<height>81</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>anticlockwise</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>5</ymin>
+			<xmax>44</xmax>
+			<ymax>65</ymax>
+		</bndbox>
+	</object>
+</annotation>

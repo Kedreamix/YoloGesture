@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>333 .jpg</filename>
+	<path>E:\handpose_x_gesture_v2\JPEGImages\333 .jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2736</width>
+		<height>2736</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>up</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>886</xmin>
+			<ymin>386</ymin>
+			<xmax>2022</xmax>
+			<ymax>2458</ymax>
+		</bndbox>
+	</object>
+</annotation>
