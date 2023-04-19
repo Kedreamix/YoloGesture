@@ -1,0 +1,8 @@
+up
+down
+left
+right
+front
+back
+clockwise
+anticlockwise

@@ -1,0 +1,14 @@
+#------------------------------detect.py--------------------------------#
+# 这一部分是为了半自动标注数据，可以减轻负担
+# dir_origin_path 图片存放位置
+# dir_save_path Annotation保存位置
+# ----------------------------------------------------------------------#
+dir_detect_path: ./JPEGImages
+detect_save_path: ./Annotation
+
+# ----------------------------- train.py -------------------------------#
+nc: 8 # 类别的数量
+classes: ["up","down","left","right","front","back","clockwise","anticlockwise"] # 类别
+confidence: 0.5
+nms_iou: 0.3
+letterbox_image: False
