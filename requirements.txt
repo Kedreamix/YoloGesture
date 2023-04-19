@@ -1,0 +1,15 @@
+scipy
+numpy
+matplotlib
+opencv_python
+torch==1.8.1
+torchvision==0.9.1
+tqdm==4.60.0
+Pillow==8.2.0
+h5py==2.10.0
+tensorboard
+pyyaml==6.0
+torchinfo
+labelimg==1.8.6
+streamlit==1.8.1
+opencv-python-headless==4.5.2.52
