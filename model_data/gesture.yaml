@@ -1,14 +1,20 @@
 #------------------------------detect.py--------------------------------#
-# 这一部分是为了半自动标注数据，可以减轻负担
+# 这一部分是为了半自动标注数据，可以减轻负担，需要提前训练一个权重，以Labelme格式保存
 # dir_origin_path 图片存放位置
 # dir_save_path Annotation保存位置
 # ----------------------------------------------------------------------#
-dir_detect_path: ./JPEGImages
+dir_detect_path: ./JPEGImages 
 detect_save_path: ./Annotation
 
 # ----------------------------- train.py -------------------------------#
 nc: 8 # 类别的数量
 classes: ["up","down","left","right","front","back","clockwise","anticlockwise"] # 类别
-confidence: 0.5
+confidence: 0.5 # 置信度
 nms_iou: 0.3
 letterbox_image: False
+
+lr_decay_type: cos # 使用到的学习率下降方式，可选的有step、cos
+# 用于设置是否使用多线程读取数据
+# 开启后会加快数据读取速度，但是会占用更多内存
+# 内存较小的电脑可以设置为2或者0，win建议设为0
+num_workers: 4
