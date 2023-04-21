@@ -36,7 +36,7 @@ def main():
         st.sidebar.success('To continue select "Run the app".')
     elif app_mode == "Show the source code":
         readme_text.empty()
-        st.code(open("gesture_streamlit.py",encoding='utf-8').read())
+        st.code(open("gesture.streamlit.py",encoding='utf-8').read())
     elif app_mode == "Run the app":
         # Download external dependencies.
         for filename in EXTERNAL_DEPENDENCIES.keys():
