@@ -48,27 +48,27 @@ def main():
 # External files to download.
 EXTERNAL_DEPENDENCIES = {
     "yolov4_tiny.pth": {
-        "url": "https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_tiny.pth",
+        "url": "https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_tiny.pth",
         "size": 23631189 
     },
     "yolov4_SE.pth": {
-        "url": "https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_SE.pth",
+        "url": "https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_SE.pth",
         "size": 23806027
     },
     "yolov4_CBAM.pth":{
-        "url": "https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_CBAM.pth",
+        "url": "https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_CBAM.pth",
         "size": 23981478
     },
     "yolov4_ECA.pth":{
-        "url": "https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_ECA.pth",
+        "url": "https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_ECA.pth",
         "size": 23632688
     },
     "yolov4_weights_ep150_608.pth":{
-        "url": "https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_weights_ep150_608.pth",
+        "url": "https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_weights_ep150_608.pth",
         "size": 256423031
     },
     "yolov4_weights_ep150_416.pth":{
-        "url": "https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_weights_ep150_416.pth",
+        "url": "https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_weights_ep150_416.pth",
         "size": 256423031
     },
 }
