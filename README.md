@@ -109,18 +109,18 @@
 
 | 训练数据集 |                         权值文件名称                         | 迭代次数 | Batch-size | 图片shape | 平均准确率 | mAP 0.5 | fps   |
 | :--------: | :----------------------------------------------------------: | :------: | :--------: | :-------: | :--------: | :-----: | ----- |
-| Gesture v1 | [yolo4_gesture_weights.pth](https://github.com/Dreaming-future/College-Students-Innovative-Entrepreneurial-Training-Plan-Program/releases/download/v1.0/yolo4_gesture_weights.pth) |   150    |    4->8    |  256x256  |   61.65    |  51.66  |       |
-| Gesture v2 | [yolo4tiny_gesture_SE.pth](https://github.com/Dreaming-future/College-Students-Innovative-Entrepreneurial-Training-Plan-Program/blob/main/yolov4-gesture/model_data/yolotiny_SE_ep100.pth) |   100    |   64->32   |  416x416  |    83.6    |  95.18  | 76.08 |
-| Gesture v2 | [yolo4tiny_gesture_CBAM.pth](https://github.com/Dreaming-future/College-Students-Innovative-Entrepreneurial-Training-Plan-Program/blob/main/yolov4-gesture/model_data/yolotiny_CBAM_ep100.pth) |   100    |   64->32   |  416x416  |   89.35    |  98.85  | 70.01 |
-| Gesture v2 | [yolo4tiny_gesture_ECA.pth](https://github.com/Dreaming-future/College-Students-Innovative-Entrepreneurial-Training-Plan-Program/blob/main/yolov4-gesture/model_data/yolotiny_ECA_ep100.pth) |   100    |   64->32   |  416x416  |   88.37    |  96.26  | 77.19 |
-| Gesture v2 | [yolo4tiny_gesture.pth](https://github.com/Dreaming-future/College-Students-Innovative-Entrepreneurial-Training-Plan-Program/blob/main/yolov4-gesture/model_data/yolotiny_ep100.pth) |   100    |   64->32   |  416x416  |   87.01    |  95.86  | 81.81 |
-| Gesture v2 | [yolo4_gesture_weightsv2.pth](https://github.com/Dreaming-future/College-Students-Innovative-Entrepreneurial-Training-Plan-Program/releases/download/v2.0/yolov4_ep100.pth) |   100    |    4->8    |  256x256  |   84.51    |  90.77  | 24.21 |
-| Gesture v3 | [yolov4_tiny.pth](https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_tiny.pth) |   150    |   64->32   |  416x416  |   75.05    |  91.30  |       |
-| Gesture v3 | [yolov4_SE.pth](https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_SE.pth) |   150    |   64->32   |  416x416  |   78.06    |  90.13  |       |
-| Gesture v3 | [yolov4_CBAM.pth](https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_CBAM.pth) |   150    |   64->32   |  416x416  |   91.09    |  94.97  |       |
-| Gesture v3 | [yolov4_ECA.pth](https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_ECA.pth) |   150    |   64->32   |  416x416  |   94.58    |  83.24  |       |
-| Gesture v3 | [yolov4_weights_ep150_416.pth](https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_weights_ep150_416.pth) |   150    |   64->32   |  416x416  |   95.145   |  98.35  |       |
-| Gesture v3 | [yolov4_weights_ep150_608.pth](https://github.com/Dreaming-future/my_weights/releases/download/v1.3/yolov4_weights_ep150_608.pth) |   150    |   64->32   |  608x608  |   93.64    |  97.23  |       |
+| Gesture v1 |                  yolo4_gesture_weights.pth                   |   150    |    4->8    |  256x256  |   61.65    |  51.66  |       |
+| Gesture v2 |                   yolo4tiny_gesture_SE.pth                   |   100    |   64->32   |  416x416  |    83.6    |  95.18  | 76.08 |
+| Gesture v2 |                  yolo4tiny_gesture_CBAM.pth                  |   100    |   64->32   |  416x416  |   89.35    |  98.85  | 70.01 |
+| Gesture v2 |                  yolo4tiny_gesture_ECA.pth                   |   100    |   64->32   |  416x416  |   88.37    |  96.26  | 77.19 |
+| Gesture v2 |                    yolo4tiny_gesture.pth                     |   100    |   64->32   |  416x416  |   87.01    |  95.86  | 81.81 |
+| Gesture v2 |                 yolo4_gesture_weightsv2.pth                  |   100    |    4->8    |  256x256  |   84.51    |  90.77  | 24.21 |
+| Gesture v3 | [yolov4_tiny.pth](https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_tiny.pth) |   150    |   64->32   |  416x416  |   75.05    |  91.30  |       |
+| Gesture v3 | [yolov4_SE.pth](https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_SE.pth) |   150    |   64->32   |  416x416  |   78.06    |  90.13  |       |
+| Gesture v3 | [yolov4_CBAM.pth](https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_CBAM.pth) |   150    |   64->32   |  416x416  |   91.09    |  94.97  |       |
+| Gesture v3 | [yolov4_ECA.pth](https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_ECA.pth) |   150    |   64->32   |  416x416  |   94.58    |  83.24  |       |
+| Gesture v3 | [yolov4_weights_ep150_416.pth](https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_weights_ep150_416.pth) |   150    |   64->32   |  416x416  |   95.145   |  98.35  |       |
+| Gesture v3 | [yolov4_weights_ep150_608.pth](https://github.com/Kedreamix/YoloGesture/releases/download/v1.0/yolov4_weights_ep150_608.pth) |   150    |   64->32   |  608x608  |   93.64    |  97.23  |       |
 
 > Gesture v1中存在数据集问题，所以模型结构不好
 >
@@ -624,5 +624,15 @@ streamlit run gesture.streamlit.py
 ## 9. 参考Reference
 
 - [https://github.com/bubbliiiing/yolov4-pytorch](https://github.com/bubbliiiing/yolov4-pytorch)
-- https://github.com/qqwweee/keras-yolo3/  
-- https://github.com/Ma-Dan/keras-yolo4  
+- [https://github.com/qqwweee/keras-yolo3/](https://github.com/qqwweee/keras-yolo3/)  
+- [https://github.com/Ma-Dan/keras-yolo4](https://github.com/Ma-Dan/keras-yolo4)  
+
+
+
+
+
+## 10. 代码权重可复现，已开源（求🌟🌟🌟）
+
+所有的上述代码权重全部可复现，已经全部开源，有需要可以自取https://github.com/Kedreamix/YoloGesture
+
+有问题欢迎在issue中讨论，最后创作不易，给我个星星吧哈哈哈star一下，🌟🌟🌟
