@@ -139,9 +139,9 @@ Batch-Size 64->32是指在进行训练的时候，前半段冻结的时候使用
 
 训练所需的yolo4_weights.pth有两种方式下载。（release包含所有过程的权重，百度网盘和奶牛只记录最新的权重）
 
-- 可以从我的release下载权重
+- 可以从我的release下载权重 [https://github.com/Kedreamix/YoloGesture/releases/tag/v1.0](https://github.com/Kedreamix/YoloGesture/releases/tag/v1.0)
 
-  
+- 可以从我的huggingface的model下载权重 [https://huggingface.co/Kedreamix/YoloGestureWeights](https://huggingface.co/Kedreamix/YoloGestureWeights)
 
 - 也可以百度网盘下载
 
