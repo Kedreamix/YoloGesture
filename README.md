@@ -2,7 +2,9 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/839b3c550ac74ac894e2f0395f61f780.png)
 
-在线服务器体验网址： [https://kedreamix-yologesture.streamlit.app/](https://kedreamix-yologesture.streamlit.app/)
+Streamlit在线服务器体验网址： [https://kedreamix-yologesture.streamlit.app/](https://kedreamix-yologesture.streamlit.app/)
+
+HuggingFace在线服务器体验网址：[https://huggingface.co/spaces/Kedreamix/YoloGesture](https://huggingface.co/spaces/Kedreamix/YoloGesture)
 
 
 - [1. 项目已完成的部分](#1-项目已完成的部分)
