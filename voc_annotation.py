@@ -1,7 +1,7 @@
 import os
 import random
 import xml.etree.ElementTree as ET
-
+from get_yaml import get_config
 from utils.utils import get_classes
 
 #--------------------------------------------------------------------------------------------------------------------------------#
@@ -18,7 +18,7 @@ annotation_mode     = 0
 #   那么就是因为classes没有设定正确
 #   仅在annotation_mode为0和2的时候有效
 #-------------------------------------------------------------------#
-classes_path        = 'model_data/gesture_classes.txt'
+# classes_path        = 'model_data/gesture_classes.txt'
 #--------------------------------------------------------------------------------------------------------------------------------#
 #   trainval_percent用于指定(训练集+验证集)与测试集的比例，默认情况下 (训练集+验证集):测试集 = 9:1
 #   train_percent用于指定(训练集+验证集)中训练集与验证集的比例，默认情况下 训练集:验证集 = 9:1  
@@ -33,8 +33,9 @@ train_percent       = 0.9
 VOCdevkit_path  = 'VOCdevkit'
 
 VOCdevkit_sets  = [('2007', 'train'), ('2007', 'val')]
-classes, _      = get_classes(classes_path)
-
+# classes, _      = get_classes(classes_path)
+config = get_config()
+classes = config['classes']
 def convert_annotation(year, image_id, list_file):
     in_file = open(os.path.join(VOCdevkit_path, 'VOC%s/Annotations/%s.xml'%(year, image_id)), encoding='utf-8')
     tree=ET.parse(in_file)
