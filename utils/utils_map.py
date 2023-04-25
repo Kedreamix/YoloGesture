@@ -232,7 +232,7 @@ def draw_plot_func(dictionary, n_classes, window_title, plot_title, x_label, out
             if i == (len(sorted_values)-1): # largest bar
                 adjust_axes(r, t, fig, axes)
     # set window title
-    fig.canvas.set_window_title(window_title)
+    fig.canvas.manager.set_window_title(window_title)
     # write classes in y axis
     tick_font_size = 12
     plt.yticks(range(n_classes), sorted_keys, fontsize=tick_font_size)
@@ -593,7 +593,7 @@ def get_map(MINOVERLAP, draw_plot, path = './map_out'):
                 plt.fill_between(area_under_curve_x, 0, area_under_curve_y, alpha=0.2, edgecolor='r')
 
                 fig = plt.gcf()
-                fig.canvas.set_window_title('AP ' + class_name)
+                fig.canvas.manager.set_window_title('AP ' + class_name)
 
                 plt.title('class: ' + text)
                 plt.xlabel('Recall')
