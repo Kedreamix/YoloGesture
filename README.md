@@ -35,16 +35,26 @@ HuggingFace在线服务器体验网址：[https://huggingface.co/spaces/Kedreami
 ## 1. 项目已完成的部分
 
 - [x] 数据集的构建
+
 - [x] 代码的基本运行和训练
+
 - [x] 增加数据集 800 -> 1600
+
 - [x] 利用Mosaic数据增强，但是结果不好，之后训练不会采用，除非数据足够多
+
 - [x] 增加yaml文件，利用yaml配置所有参数
+
 - [x] 提高图片的输入shape，从256x256 -> 416x416
+
 - [x] 由于结果不理想，使用部分自制数据集替换，数据集总数不变
+
 - [x] 添加yolov4 tiny 轻量化模型
+
 - [x] 增加注意力机制，可以比轻量化模型得到更不错的结果
-- [x] 使用MobileNet作为backbone，轻量化模型
-- [x] 使用yolov5 或者 yolox 改进方法
+
+  
+
+<!-- 使用MobileNet作为backbone，轻量化模型  使用yolov5 或者 yolox 改进方法 -->
 
 
 
@@ -312,8 +322,8 @@ optional arguments:
 # 冻结进行迁移学习，利用已有的yolov4_SE.pth的权重进行
 python train.py --tiny --phi 1 --epochs 100 \
         --weights model_data/yolov4_SE.pth \
-        --freeze --freeze-epochs 50 --freeze-size 64 \
-        --batch-size 32 --shape 416 \
+        --freeze --freeze-epochs 50 --freeze-size 8 \
+        --batch-size 4 --shape 416 \
         --fp16 --cuda
 
 # 快速运行尝试，重新学习
@@ -330,8 +340,8 @@ python train.py --tiny --phi 1 --epochs 10 \
 # 冻结进行迁移学习
 python train.py --tiny --phi 1 --epochs 100 \
         -w model_data/yolov4_SE.pth \
-        -f -fe 50 -fs 64 \
-        --bs 32 --shape 416 \
+        -f -fe 50 -fs 8 \
+        --bs 4 --shape 416 \
         --fp16 --cuda
 
 # 快速运行尝试，重新学习
