@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-streamlit = "1.8.1"
+streamlit = "<1.11.*"
 opencv-python = "4.5.2.52"
 numpy = "*"
 torchvision = "0.9.1"
