@@ -13,4 +13,4 @@ torchinfo
 labelimg==1.8.6
 streamlit==1.8.1
 opencv-python-headless==4.5.2.52
-streamlit-webrtc==0.40.0
+streamlit<=1.11.*
